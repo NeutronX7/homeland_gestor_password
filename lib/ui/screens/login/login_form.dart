@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 import '../../../style/brand_color.dart';
 import '../../../util/strings.dart';
@@ -55,11 +56,21 @@ class _LoginFormState extends State<LoginForm> {
     }
   }
 
-  Future<void> _loginGoogle() async {
-    try {
-    } on FirebaseAuthException catch (e) {
+  Future<void> _loginWithGoogle() async {
 
-    }
+    GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+
+    GoogleSignInAuthentication? googleAuth = await googleUser?.authentication;
+
+    AuthCredential credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth?.accessToken,
+        idToken: googleAuth?.idToken
+    );
+
+    UserCredential user = await FirebaseAuth.instance.signInWithCredential(credential);
+
+    print(user.user?.displayName);
+    FirebaseAuth.instance.signInWithCredential(credential);
   }
 
   showMessage(String text) {
@@ -111,7 +122,7 @@ class _LoginFormState extends State<LoginForm> {
           children: [
             Expanded(
               child: ElevatedButton(
-                  onPressed: _loginGoogle,
+                  onPressed: _loginWithGoogle,
                   style: ElevatedButton.styleFrom(
                     backgroundColor: BrandColor.pink,
                       shape: RoundedRectangleBorder(

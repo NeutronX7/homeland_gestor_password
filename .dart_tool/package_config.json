@@ -182,10 +182,52 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "google_identity_services_web",
+      "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/google_identity_services_web-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "google_nav_bar",
       "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/google_nav_bar-5.0.6",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in",
+      "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/google_sign_in-6.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_android",
+      "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.15",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_ios",
+      "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.6.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/http-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "http_parser",
@@ -282,6 +324,12 @@
       "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/process-4.2.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///Users/isaac/.pub-cache/hosted/pub.dev/quiver-3.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "shared_preferences",
@@ -422,7 +470,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-06-08T22:53:58.618782Z",
+  "generated": "2023-06-09T00:21:58.696240Z",
   "generator": "pub",
   "generatorVersion": "3.0.2"
 }
