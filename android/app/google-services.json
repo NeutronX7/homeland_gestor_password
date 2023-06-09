@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "204188076739",
+    "project_id": "homelandprueba",
+    "storage_bucket": "homelandprueba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204188076739:android:6866b0e64180f19c8bf076",
+        "android_client_info": {
+          "package_name": "com.homeland.prueba_passwords.prueba_passwords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204188076739-1kju6089nh6i2vcs3fkoeo7uppg4se98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homeland.prueba_passwords.prueba_passwords",
+            "certificate_hash": "2c2bc75122315ee5dd7618162ff8d04fc63532e7"
+          }
+        },
+        {
+          "client_id": "204188076739-83ln06vhfregl22tghahgvv134f6g085.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOb6xI2B_1_FriliQPdTnCTpZ6t8xsKuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204188076739-83ln06vhfregl22tghahgvv134f6g085.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "204188076739-5aqqmve7j6g6h6ktun8gbsu197043ssp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.homeland.pruebapasswords.pruebaPasswords"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

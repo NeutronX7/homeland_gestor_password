@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">204188076739-83ln06vhfregl22tghahgvv134f6g085.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">204188076739</string>
+    <string name="google_api_key" translatable="false">AIzaSyCOb6xI2B_1_FriliQPdTnCTpZ6t8xsKuM</string>
+    <string name="google_app_id" translatable="false">1:204188076739:android:6866b0e64180f19c8bf076</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCOb6xI2B_1_FriliQPdTnCTpZ6t8xsKuM</string>
+    <string name="google_storage_bucket" translatable="false">homelandprueba.appspot.com</string>
+    <string name="project_id" translatable="false">homelandprueba</string>
+</resources>
